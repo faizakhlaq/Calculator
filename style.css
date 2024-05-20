@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url(4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: xx-large;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.main {
+  height: 550px;
+  width: 420px;
+  background-image: url(3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.result {
+  height: 100px;
+  width: 340px;
+  border: solid;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+}
+
+.para {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.red-button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  height: 60px;
+  width: 80px;
+}
+
+.c-button {
+  background-color: rgb(250, 0, 0);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  height: 60px;
+  width: 80px;
+}
+
+.blue-button {
+  background-color: rgb(62, 62, 184);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  height: 60px;
+  width: 80px;
+}
+
+.green-button {
+  background-color: rgb(3, 139, 9);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  height: 60px;
+  width: 80px;
+}
+
+.main-head {
+  margin: 0;
+  color: rgb(167, 11, 11);
+  font-size: 52px;
+  text-align: center;
+}
